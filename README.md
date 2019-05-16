@@ -4,8 +4,6 @@ A large-scale database for HEVC in-loop filter (HIF).
 
 For learning the in-loop filter in HEVC, we construct this database providing distorted frames before and after the standard in-loop filter. This database has been used to train the proposed deep-learning-based multi-frame in-loop filter (MIF) [1], and may also facilitate other related future works. 
 
-Note: the whole database is more than 20GB and need some time to be uploaded. We are trying hard to finish it before 17th May, 2019. Thank you for your consideration.
-
 ## 1. Database Construction
 
 The HIF database is constructed from 182 raw video sequences, consisting of 6 facial sequences from [2], 87 sequences from Xiph.org [3] and 89 sequences from the Consumer Digital Video Library [4] in the Video Quality Experts Group (VQEG) [5]. The 182 sequences were divided into non-overlapping sets of training (120 sequences), validation (40 sequences) and test (22 sequences). The corresponding copyright files are in folder <font color="#0040c0">*Copyright/*</font>. **Data in our database can be freely used for research without any commercial purpose, only on the condition that the copyrights are appropriately obeyed.**
@@ -14,19 +12,23 @@ The sequences were all encoded by HM 16.5 [6] at four QPs {22, 27, 32, 37} with 
 
 ## 2. Data Access
 
-(1) To download the 182 raw video sequences, visit
+All files can be downloaded at
 
 Dropbox:
 
-https://www.dropbox.com/sh/lpcmkkfcru6h5dy/AACsQWuI9nthIQIa5Tw4teFJa?dl=0
+https://www.dropbox.com/sh/cpa4pca3jhvjhn7/AABrw4Oq4ZzvBYTyOziJispra?dl=0
 
 or Baidu Cloud Disk:
 
-https://pan.baidu.com/s/10dOpfrUa53EN-dK-SkEIAQ (Fetch code: 2qm7)
+https://pan.baidu.com/s/10dOpfrUa53EN-dK-SkEIAQ (code: 2qm7)
 
 From the above two sources, files are the identical. Choose either source that is more convenient for you.
 
+(1) 182 video sequences are in folder <font color="#0040c0">*YUV_HIF/*</font>.
+
 (2) The encoded bit-stream files (\*.bin format) for QPs {22, 27, 32, 37} can be obtained from folders <font color="#0040c0">*HIF_LDP_Bin/*</font>, <font color="#0040c0">*HIF_LDB_Bin/*</font> and <font color="#0040c0">*HIF_RA_Bin/*</font>. With the decoder in <font color="#0040c0">*HM-16.5_HIF_Rec/*</font>, both reconstructed frames with and without the standard in-loop filter are generated. To run this decoder, please refer to file <font color="#0040c0">*HM-16.5_HIF_Rec/bin/README.md*</font>.
+
+(3) The CU and TU partition results are stored in folders <font color="#0040c0">*HIF_LDP_Info/*</font>, <font color="#0040c0">*HIF_LDB_Info/*</font> and <font color="#0040c0">*HIF_RA_Info/*</font>, with the corresponding data format specified in <font color="#0040c0">*README_CU_TU_Info.md*</font>.
 
 ## 3. Subjective Quality Analysis
 
