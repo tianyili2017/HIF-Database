@@ -20,9 +20,9 @@ https://www.dropbox.com/sh/cpa4pca3jhvjhn7/AABrw4Oq4ZzvBYTyOziJispra?dl=0
 
 or Baidu Cloud Disk:
 
-https://pan.baidu.com/s/10dOpfrUa53EN-dK-SkEIAQ (code: 2qm7)
+https://pan.baidu.com/s/12e_waYuOuBN5PbqJcw5dXw (code: dzd4)
 
-From the above two sources, files are the identical. Choose either source that is more convenient for you.
+From the above two sources, files are identical. Choose either source that is more convenient for you.
 
 (1) 182 video sequences are in folder <font color="#0040c0">*YUV_HIF/*</font>.
 
