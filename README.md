@@ -42,15 +42,15 @@ Then, the sequences compressed by our MIF approach can be generated with the bit
 
 The aforementioned folder <font color="#0040c0">*HM-16.5_MIF-Net*</font> contains both encoder and decoder for the proposed MIF approach. All source codes are stored in its sub-folder <font color="#0040c0">*HM-16.5_MIF-Net/source*</font>, and the compiled executable files are in <font color="#0040c0">*HM-16.5_MIF-Net/bin*</font>. 
 
-In HM 16.5, four C++ files have been modified, as below.
+In total, eight C++ files have been modified, as below.
  - source/App/TAppDecoder/TAppDecTop.cpp
  - source/App/TAppEncoder/TAppEncTop.cpp
  - source/Lib/TLibDecoder/TDecSlice.cpp
  - source/Lib/TLibDecoder/TDecGop.cpp
-source/Lib/TLibDecoder/TDecGop.h
-source/Lib/TLibEncoder/TEncSlice.cpp
-source/Lib/TLibEncoder/TEncGOP.cpp
-source/Lib/TLibEncoder/TEncGOP.h
+ - source/Lib/TLibDecoder/TDecGop.h
+ - source/Lib/TLibEncoder/TEncSlice.cpp
+ - source/Lib/TLibEncoder/TEncGOP.cpp
+ - source/Lib/TLibEncoder/TEncGOP.h
 To run the codec, please refer to file <font color="#0040c0">*HM-16.5_MIF-Net/bin/README.md*</font>.
 
 ## References
