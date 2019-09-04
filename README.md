@@ -55,6 +55,10 @@ In total, eight C++ files have been modified, as below.
 
 To run the codec, please refer to file <font color="#0040c0">*HM-16.5_MIF-Net/bin/README.md*</font>.
 
+Below is an example when the encoder is running.
+
+![](example_encoder.png)
+
 ## References
 
 [1] Tianyi Li, Mai Xu, Ce Zhu, Ren Yang, Zulin Wang and Zhenyu Guan, “A Deep Learning Approach for Multi-Frame In-Loop Filter of HEVC,” IEEE TIP, vol. 28, no. 11, pp. 5663-5678, Nov. 2019.
