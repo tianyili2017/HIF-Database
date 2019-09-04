@@ -40,11 +40,22 @@ Then, the sequences compressed by our MIF approach can be generated with the bit
 
 ## 4. Source Codes for Test
 
-The aforementioned folder <font color="#0040c0">*HM-16.5_MIF-Net*</font> contains both encoder and decoder for the proposed MIF approach. All source codes are stored in its sub-folder <font color="#0040c0">*HM-16.5_MIF-Net/source*</font>, and the compiled executable files are in <font color="#0040c0">*HM-16.5_MIF-Net/bin*</font>. To run the codec, please refer to file <font color="#0040c0">*HM-16.5_MIF-Net/bin/README.md*</font>.
+The aforementioned folder <font color="#0040c0">*HM-16.5_MIF-Net*</font> contains both encoder and decoder for the proposed MIF approach. All source codes are stored in its sub-folder <font color="#0040c0">*HM-16.5_MIF-Net/source*</font>, and the compiled executable files are in <font color="#0040c0">*HM-16.5_MIF-Net/bin*</font>. 
+
+In HM 16.5, four C++ files have been modified, as below.
+ - source/App/TAppDecoder/TAppDecTop.cpp
+ - source/App/TAppEncoder/TAppEncTop.cpp
+ - source/Lib/TLibDecoder/TDecSlice.cpp
+ - source/Lib/TLibDecoder/TDecGop.cpp
+source/Lib/TLibDecoder/TDecGop.h
+source/Lib/TLibEncoder/TEncSlice.cpp
+source/Lib/TLibEncoder/TEncGOP.cpp
+source/Lib/TLibEncoder/TEncGOP.h
+To run the codec, please refer to file <font color="#0040c0">*HM-16.5_MIF-Net/bin/README.md*</font>.
 
 ## References
 
-[1] Tianyi Li, Mai Xu, Ce Zhu, Ren Yang, Zulin Wang and Zhenyu Guan, “A Deep Learning Approach for Multi-Frame In-Loop Filter of HEVC,” IEEE TIP, Early Access.
+[1] Tianyi Li, Mai Xu, Ce Zhu, Ren Yang, Zulin Wang and Zhenyu Guan, “A Deep Learning Approach for Multi-Frame In-Loop Filter of HEVC,” IEEE TIP, vol. 28, no. 11, pp. 5663-5678, Nov. 2019.
 
 [2] Mai Xu, Xin Deng, Shengxi Li and Zulin Wang, “Region-of-Interest Based Conversational HEVC Coding with Hierarchical Perception Model of Face,” IEEE JSTSP, vol. 8, no. 3, pp. 475–489, Jun. 2014.
 
