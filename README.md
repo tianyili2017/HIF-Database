@@ -38,6 +38,10 @@ First, the sequences compressed by standard HEVC (i.e., with standard DBF and SA
 
 Then, the sequences compressed by our MIF approach can be generated with the bit-stream files in <font color="#0040c0">*Test_MIF-Net_RA_Bin/*</font> and log files in <font color="#0040c0">*Test_MIF-Net_RA_Log/*</font>, with our adapted HM decoder in folder <font color="#0040c0">*HM-16.5_MIF-Net/*</font>. To run this decoder, please refer to file <font color="#0040c0">*HM-16.5_MIF-Net/bin/README.md*</font>.
 
+## 4. Source Codes for Test
+
+The aforementioned folder <font color="#0040c0">*HM-16.5_MIF-Net*</font> contains both encoder and decoder for the proposed MIF approach. All source codes are stored in its sub-folder <font color="#0040c0">*HM-16.5_MIF-Net/source*</font>, and the compiled executable files are in <font color="#0040c0">*HM-16.5_MIF-Net/bin*</font>. To run the codec, please refer to file <font color="#0040c0">*HM-16.5_MIF-Net/bin/README.md*</font>.
+
 ## References
 
 [1] Tianyi Li, Mai Xu, Ce Zhu, Ren Yang, Zulin Wang and Zhenyu Guan, “A Deep Learning Approach for Multi-Frame In-Loop Filter of HEVC,” IEEE TIP, Early Access.
