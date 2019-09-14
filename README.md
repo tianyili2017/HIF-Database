@@ -6,7 +6,7 @@ For learning the in-loop filter in HEVC, we construct this database providing di
 
 Link of paper [1]: https://ieeexplore.ieee.org/document/8736997
 
-A Zhihu article (in Chinese) for paper [1]: https://zhuanlan.zhihu.com/p/78591265
+Zhihu article (in Chinese) for paper [1]: https://zhuanlan.zhihu.com/p/78591265
 
 ## 1. Database Construction
 
