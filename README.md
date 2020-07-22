@@ -4,6 +4,8 @@ A large-scale database for HEVC in-loop filter (HIF).
 
 For learning the in-loop filter in HEVC, we construct this database providing distorted frames before and after the standard in-loop filter. This database has been used to train the proposed deep-learning-based multi-frame in-loop filter (MIF) [1], and may also facilitate other related future works. 
 
+Source codes (both training and test): https://github.com/tianyili2017/MultiFrame-InLoop-Filter
+
 Link of paper [1]: https://ieeexplore.ieee.org/document/8736997
 
 Zhihu article (in Chinese) for paper [1]: https://zhuanlan.zhihu.com/p/78591265
